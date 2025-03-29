@@ -1,0 +1,69 @@
+/* Define the font faces */
+@font-face {
+  font-family: "Agdasima";
+  src: url("assets/Agdasima-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/Poppins-Medium.ttf");
+}
+
+/* Style the navigation bar */
+.boxLogo {
+  min-height: auto;
+  font-family: "Poppins";
+  padding-top: 25px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  color: aliceblue;
+}
+
+/* Style the logo */
+.logo {
+  position: relative;
+  margin-left: 10px;
+}
+
+/* Style the navigation links */
+.linkSet {
+  padding-top: 4px;
+  padding-right: 20px;
+  touch-action: manipulation; /* Helps with mobile responsiveness */
+}
+
+/* Change color when active (clicked) */
+.linkSet:active,
+.live_text:active,
+.schedule_text:active {
+  color: yellowgreen !important;
+}
+
+/* Live text button */
+.live_text {
+  text-align: center;
+  padding: 5px;
+  border-radius: 25px;
+  color: #787878;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
+
+/* Schedule text button */
+.schedule_text {
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 25px;
+  color: #787878;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
+
+/* Active state for mobile clicks */
+.live_text:active,
+.schedule_text:active {
+  background-color: #c6ff1a; /* Temporary color change */
+  color: black !important; /* Ensures color change */
+}

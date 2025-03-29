@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Oswald";
+  src: url("assets/Oswald-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "ABeeZee";
+  src: url("assets/ABeeZee-Regular.ttf");
+}
+@font-face {
+  font-family: "Agdasima";
+  src: url("assets/Agdasima-Regular.ttf");
+}
+@font-face {
+  font-family: "Anton";
+  src: url("assets/Anton-Regular.ttf");
+}
+.scoreboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  font-family: "Anton";
+  color: #000000;
+}
+
+.scoreboard {
+  display: flex;
+  background-color: #c4f236;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.score {
+  padding: 15pxpx 0px 0px 0px;
+  font-size: 48px;
+}
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  font-size: 16px;
+  font-family: "Oswald";
+}
+
+.timer {
+  position: relative;
+  background-color: black;
+  color: #bebebe;
+  font-size: 28px;
+  border-radius: 15px 15px 0px 0px;
+  margin-top: 60px;
+  padding: 5px 5px 0px 5px;
+}
+.lineup {
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 30px;
+  background-color: #5a5a5a;
+  color: #ffffff;
+}

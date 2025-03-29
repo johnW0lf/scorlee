@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Agdasima";
+  src: url("assets/Agdasima-Regular.ttf");
+}
+.date {
+  font-size: 48px;
+  color: grey;
+  font-family: "Agdasima";
+}

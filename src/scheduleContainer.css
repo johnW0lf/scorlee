@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Oswald";
+  src: url("assets/Oswald-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "ABeeZee";
+  src: url("assets/ABeeZee-Regular.ttf");
+}
+@font-face {
+  font-family: "Agdasima";
+  src: url("assets/Agdasima-Regular.ttf");
+}
+@font-face {
+  font-family: "Anton";
+  src: url("assets/Anton-Regular.ttf");
+}
+/* Background Box */
+html,
+body {
+  padding: 5px;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Agdasima";
+}
+
+.boxBG {
+  min-height: 25vh;
+  background-color: #c4f236; /* Light Green */
+  border-radius: 37px;
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px; /* Ensures circle doesn't overflow the container */
+}
+.container-2 {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+/* Large Circle (Top-Left Corner) */
+.large-circle {
+  background-color: #000000;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  color: #000000;
+  position: absolute;
+}
+
+/* Score & Team Name */
+.score {
+  font-size: 48px;
+  color: #000000;
+  font-family: "Anton";
+}
+
+.team_name {
+  font-size: 18px;
+  color: #000000;
+}
+
+/* Divider Line */
+.divider {
+  width: 60%;
+  border-top: 2px dashed black;
+  margin: 10px auto;
+}
+
+/* Match Status */
+.status {
+  font-family: "ABeezee";
+  font-size: 16px;
+  color: black;
+}
+
+.match-stage {
+  font-family: "ABeezee";
+  font-size: 14px;
+  color: gray;
+}
